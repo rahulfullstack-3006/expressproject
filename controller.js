@@ -43,7 +43,7 @@ exports.LinkImg=function(req,resp,reqBody){
     
            
            
-            resp.status(500).send('Somethig went wrong!!');
+            resp.status(500).send('Somethig went wrong,Please add proper details!!');
         }
         else {
             //resp.status(200).send(data);
